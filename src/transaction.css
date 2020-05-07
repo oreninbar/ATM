@@ -1,0 +1,10 @@
+#transaction-container{
+    width: auto;
+   background-color: aqua; 
+}
+
+.transaction{
+   color: aliceblue;
+   text-decoration: dashed; 
+   border-style: 2px solid black ;
+}

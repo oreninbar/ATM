@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+#root {
+  font-family: calibri;
+  height: 100vh;
+  width: 100vw;
+
+}
+
+.container{
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#current-container {
+  font-family: sans-serif;
+  color: antiquewhite;
+  margin: 0.5em;
+  text-shadow: bisque;
+}
+
+.main-container {
+  margin-left: -210px;
+  height: 340px;
+  width: 420px;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  top: 25%;
+}
+
+#transaction-main {
+  top: 5px;
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#transaction-container {
+  position: relative;
+  object-position: center;
+  text-align: center;
+}
+
+.transaction-input {
+  margin: 3px;
+  border: 2px solid rgb(114, 173, 116);
+  text-align: start;
+}
+
+.transactionData {
+  text-align: left;
+}
+
+#deletion {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #4CAF50;
+  border-radius: 0.3em;
+  margin: 3px;
+  margin-right: 10px;
+}
+
+.trans-data {
+  width: 300px;
+  display: inline-grid;
+  text-align: center;
+  grid-template-columns: 33% 33% 33%;
+}
+
+#filter {
+  position: absolute;
+  top: 236px;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(206, 209, 206);
+  border-radius: 0.3em;
+  margin: 5px;
+}
+
+#transaction-amount {
+  text-align: right;
+  margin-right: 30px;
+}
+
+.negative {
+  color: red;
+}
+
+.positive {
+  color: #4CAF50;
+}
+
+.icon {
+  margin: 10px
+}
+
+#home-icon {
+  height: 30px;
+  width: 30px;
+}
+
+#transaction-icon {
+  height: 30px;
+  width: 30px;
+  background-color: aliceblue;
+}
+
+.btn-operation {
+  margin: 10px;
+  color: aliceblue;
+  background-color: transparent;
+  border: 2px solid rgb(206, 209, 206);
+  border-radius: 0.3em;
+  padding: 3px;
+}
+
+#your-operation {
+  color: aqua;
+}
+
+#amount-input {
+  width: 85px;
+}
+
+.enter-data {
+  margin: 3px
+}
